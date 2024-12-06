@@ -1,4 +1,5 @@
 import asyncio
+from pyrogram import idle
 from YukkiMusic import bot, app, call
 
 loop = asyncio.get_event_loop()
