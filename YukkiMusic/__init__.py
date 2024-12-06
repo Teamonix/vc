@@ -20,4 +20,4 @@ app = Client(
 )
 
 
-call = PyTgCalls(app)
+calls = PyTgCalls(app)
