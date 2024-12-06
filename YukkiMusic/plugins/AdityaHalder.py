@@ -2,7 +2,7 @@ import aiohttp, aiofiles, asyncio, base64, logging
 import os, platform, random, re, socket
 import sys, time, textwrap
 from config import *
-from YukkiMusic import bot as bot, app, call
+from YukkiMusic import bot as bot, app as app, call as call
 from os import getenv
 from io import BytesIO
 from time import strftime
