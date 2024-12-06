@@ -1449,10 +1449,3 @@ async def broadcast_message(client, message):
             await message.reply_text("**✅ Broadcast Messages To {0} Users.**".format(susr))
         except:
             pass
-
-
-
-
-
-if __name__ == "__main__":
-    loop.run_until_complete(main())
